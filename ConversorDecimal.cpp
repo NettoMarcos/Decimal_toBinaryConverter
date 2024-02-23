@@ -71,9 +71,11 @@ main(void)
 			
 			if (resp != 1 && resp != 2){
 				printf("\nOpcao invalida!\n");
-			}else if (resp = 2){
-				repete = false;
 			}
-		}			
+		}
+		if (resp == 2){
+			repete = false;
+		}
+				
 	}	
 }
